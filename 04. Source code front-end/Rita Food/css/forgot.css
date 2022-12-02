@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    transition: .2s;
+}
+
+body{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(249, 233, 233);
+    text-align: center;
+}
+.logo img{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 3%;
+}
+.border{
+    box-shadow: 5px 5px 5px 5px #888888;
+    background: white;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+.border h1{
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+}
+
+.account{
+    margin-left: 50px;    
+    margin-top: 60px;
+}
+
+.border form{
+    margin-top: 30px;
+}
+.border .btn{
+    margin-top: 20px;
+
+}
+.border .btn input{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    border-radius: 7px;
+    border: none;
+    border-bottom: 1px solid #888888;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+
+
+.submit{
+    margin-top: 20px;
+}
+#back input{
+    margin-top: -10px;
+}
+
+.submit input{
+    display: inline;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    background: rgb(215, 42, 44);
+    border: 2px solid black;
+    border-radius: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.submit input:hover{
+    transform: scale(1.1);
+
+
+
+}
+
+
+
+.border .btn input::placeholder{
+    color: #222222;
+    font-size: 15px;
+}
+
+

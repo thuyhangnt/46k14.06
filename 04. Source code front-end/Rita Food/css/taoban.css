@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+
+}
+:root{
+   --main-color:#ad0505;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #FFFFFF;
+    align-items: center;
+    background: rgb(255, 226, 226);
+}
+
+.menu{
+
+    width: 240px;
+    height: 100vh;
+    text-align: center;
+    background: #FFF;
+    z-index: 100000;
+}
+
+.infor img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.nav{
+    margin-top: 30px;
+    align-items: center;
+}
+.nav .button{
+    display: inline-block;
+    height: 50px;
+    width: 200px ;
+    background: rgb(215,42,44);
+    margin-bottom: 30px;
+    border-radius: 9px;
+
+
+}
+
+.nav .button .nav-title{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    
+}
+ #table{
+    box-shadow: 6px 6px #000;
+}
+.button:hover{
+    transform: scale(1.15);
+}
+
+
+
+
+
+
+
+
+
+.tao{
+    text-align: center;
+    display: flex;
+    z-index: 100000;
+   
+}
+.taohoadon {
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    background: #FFF;
+    margin-top: 20px;
+    margin-left: 84.5vw;
+    border-radius: 10px;
+    padding-top: 13px;
+    color: rgb(215,42,44);
+}
+.taohoadon:hover{
+    transform: scale(1.1);
+}
+
+
+.in{
+    text-align: center;
+    display: flex;
+    z-index: 100000;
+    position: fixed;
+}
+.print {
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    background: #FFF;
+    margin-top: -80vh;
+    margin-left: 80vw;
+    border-radius: 10px;
+    padding-top: 13px;
+    color: rgb(215,42,44);
+}
+.print:hover{
+    transform: scale(1.1);
+}
+
+.body table{
+
+    border: 0.1px solid #000;
+    margin-top: -95vh;
+    margin-left: 300px;
+}
+.body .header{
+    background: #b9b3b3;
+}
+.body .head{
+    background: #FFF;
+}
+.body .head .stt{
+    border: 0.1px solid #000;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.body .head .mamon{
+    border: 0.1px solid #000;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.head .tenmon{
+    border: 0.1px solid #000;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 170px;
+}
+.head #tenmon{
+    border: 0.1px solid #000;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.head .gia{
+    border: 0.1px solid #000;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.head .them{
+    cursor: pointer;
+    border: 0.1px solid #000;
+
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tonghop table{
+    border: 0.1px solid #000;
+    margin-top: -80vh;
+    margin-left: 1280px;
+    background: #FFF;
+}
+
+.tonghop .dau th{
+    background: rgb(198, 198, 198);
+    padding: 10px;
+}
+
+.mondachon td{
+    border: 0.1px solid #000;
+    padding-left:10px ;
+    padding-right: 10px;
+}

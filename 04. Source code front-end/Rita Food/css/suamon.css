@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    transition: .2s;
+}
+:root{
+   --main-color:#ad0505;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background: rgb(255, 226, 226);
+}
+
+.menu{
+    width: 240px;
+    height: 100vh;
+    text-align: center;
+    background: #FFF;
+}
+
+.infor img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.nav{
+    margin-top: 30px;
+    align-items: center;
+}
+.nav .button{
+    display: inline-block;
+    height: 50px;
+    width: 200px ;
+    background: rgb(215,42,44);
+    margin-bottom: 30px;
+    border-radius: 9px;
+
+
+}
+
+.nav .button .nav-title{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    
+}
+
+.button:hover{
+    transform: scale(1.15);
+}
+#nav-menu{
+    box-shadow: 6px 6px #000;
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    background: #FFF;
+    margin-top: -79vh;
+    margin-left: 650px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 1px solid rgb(215,42,44);
+    
+}
+
+.card span{
+    cursor: pointer;
+    
+}
+
+
+.card .name h3{
+    font-size: 25px;
+    margin-top: 30px;
+
+    color: rgb(215,42,44);
+}
+
+.infor .ma{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 185px;
+    font-size: 20px;
+}
+.infor .gia{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 135px;
+    font-size: 20px;
+    color: rgb(215,42,44);
+}
+.card form{
+    margin-top: 20px;
+}
+.card input{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: 0.1px solid #000;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.form .xong{
+    margin-top: 20px;
+
+}
+
+
+.form .huy input{
+    cursor: pointer;
+    margin-left: -150px;
+    margin-top: 30px;
+    background: rgb(215,42,44);
+    color: #FFF;
+}
+.form .luu{
+    margin-top: -50px;
+    margin-left: 100px;
+}
+.form .luu input{
+    cursor: pointer;
+    background: rgb(215,42,44);
+    color: #FFF;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    transition: 0.2s;
+}
+body{
+    background: rgb(249, 233, 233);
+    height: 100vh;
+    width: 100vw;
+    border-radius: 10px;
+}
+.sign-in{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+.logo img{
+    display: flex;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 3%;
+}
+.card{
+    background: white;
+    height: 444px;
+    width: 400px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 10px;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-right: 10px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: -29%;
+}
+
+
+
+.card h1{
+    color: black;
+}
+
+.form .box {
+    color: black;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.form .box input{
+    font-size: 15px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #888888;
+    box-shadow: 1px 1px 1px 1px #888888;
+    border-radius: 7px;
+    color: black;
+    padding: 10px;
+}
+.box label{
+    font-size: 15px;
+}
+.form #name{
+    margin-left: 10px;
+}
+.form  #pass{
+    margin-top: 20px;
+    margin-left: -3px;
+}
+
+
+.form .btn{
+    display: flex;
+    cursor: pointer;
+    display: inline-block;
+    color:white;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top:20px ;
+    border-radius: 7px;
+    background: none;
+    margin-left: 5px;
+    background: rgb(215, 42, 44);
+}
+.form #sign-up{
+    display: flex;
+    font-size: 20px;
+    display: flex;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 34px;
+    padding-right: 18px;
+}
+
+.form #sign-in{
+    display: flex;
+    height: 50px;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-left: 128px;
+    padding-right: 18px;
+}
+.form #forgot-pass{
+    display: flex;
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-left: 230px;
+    margin-top: -50px;
+}
+
+.show-btn{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: -40px;
+    padding-right: 2px;
+}
+.show-btn:hover{
+    transform: scale(1.2);
+    color: rgb(215,42,44);
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+

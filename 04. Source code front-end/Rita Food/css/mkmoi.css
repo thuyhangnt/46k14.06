@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    transition: .2s;
+}
+:root{
+   --main-color:#ad0505;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #FFFFFF;
+    align-items: center;
+    background: rgb(255, 226, 226);
+}
+
+.menu{
+    width: 240px;
+    height: 100vh;
+    text-align: center;
+    background: #FFF;
+}
+
+.infor img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.nav{
+    margin-top: 30px;
+    align-items: center;
+}
+.nav .button{
+    display: inline-block;
+    height: 50px;
+    width: 200px ;
+    background: rgb(215,42,44);
+    margin-bottom: 30px;
+    border-radius: 9px;
+
+
+}
+
+.nav .button .nav-title{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    
+}
+#logout{
+    box-shadow: 6px 6px #000;
+}
+.button:hover{
+    transform: scale(1.15);
+}
+
+
+.border{
+    height: 250px;
+    width: 400px;
+    margin-top: -75vh;
+    margin-left: 680px;
+    background: #FFF;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.border form{
+    margin-top: 30px;
+}
+.border .btn{
+    margin-top: 20px;
+
+}
+.border .btn input{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    border-radius: 7px;
+    border: 0.1px solid #000;
+    border-bottom: 1px solid #888888;
+   
+}
+
+
+.submit{
+    margin-top: 20px;
+}
+#back input{
+    margin-top: -10px;
+}
+.account .btn input{
+    text-align: center;
+}
+
+.submit input{
+    margin-left: 50px;
+    display: inline;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    background: rgb(215, 42, 44);
+    border: 2px solid black;
+    border-radius: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.submit input:hover{
+    transform: scale(1.1);
+
+
+
+}
+
+
+
+.border .btn input::placeholder{
+    color: #222222;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+

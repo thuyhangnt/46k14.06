@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    transition: .2s;
+}
+:root{
+   --main-color:#ad0505;
+
+}
+body{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: #FFFFFF;
+    align-items: center;
+    background: rgb(255, 226, 226);
+}
+
+.menu{
+    width: 240px;
+    height: 100vh;
+    text-align: center;
+    background: #FFF;
+}
+
+.infor img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.nav{
+    margin-top: 30px;
+    align-items: center;
+}
+.nav .button{
+    display: inline-block;
+    height: 50px;
+    width: 200px ;
+    background: rgb(215,42,44);
+    margin-bottom: 30px;
+    border-radius: 9px;
+
+
+}
+
+.nav .button .nav-title{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    
+}
+#nav-turnover{
+    box-shadow: 6px 6px #000;
+}
+.button:hover{
+    transform: scale(1.15);
+}
+
+
+.body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+    grid-template-rows: repeat(auto-fit, 150px);
+    gap: 200px  ;
+    background: none;
+    height: 100vh;
+    width: 1200px;
+    margin-top: -100vh;
+    margin-left: 380px;
+}
+
+.card{
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    background: #FFF;
+    margin-top:50px ;
+    margin-left: 50px;
+    color: rgb(215,42,44);
+    padding-top: 25px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.list{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.list td{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.list  .name{
+    color: #000;
+}
+

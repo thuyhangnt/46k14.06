@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/taoban.css">
+    <title>Rita Food</title>
+</head>
+<body>
+    <section>
+        <div class="menu">
+            <div class="infor">
+                <a href="./home.html"><img src="./img/logo.jpg" alt=""></a>
+            </div>
+
+            <ul class="nav" id="nav-menu">
+                <li class="button">
+                    <a href="./menu.html" class="nav-menu" >
+                        <span class="nav-title">Danh sách món ăn</span>
+                    </a>
+                </li>
+                <li class="button" id="nav-order">
+                    <a href="./don.html" class="nav-order">
+                        <span class="nav-title">Bán hàng trực tuyến</span>
+                    </a>
+                </li>
+                <li class="button" id="table">
+                    <a href="./ban.html" class="table">
+                        <span class="nav-title">Bán hàng trực tiếp</span>
+                    </a>
+                </li>
+                
+                <li class="button" id="nav-turnover">
+                    <a href="./doanhthu.html" class="nav-turnover">
+                        <span class="nav-title">Thống kê</span>
+                    </a>
+                </li>
+                <li class="button" id="nav-turnover">
+                    <a href="./kho.html" class="nav-turnover">
+                        <span class="nav-title">Quản lý kho</span>
+                    </a>
+                </li>
+                <li class="button" id="logout">
+                    <a href="./caidat.html" class="logout">
+                        <span class="nav-title">Cài đặt</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        
+
+        <div class="body">
+            <table>
+                <tr class="header">
+                    <th class="stt">STT</th>
+                    <th class="mamon">Mã món ăn</th>
+                    <th class="tenmon" id="tenmon">Tên món ăn</th>
+                    <th class="gia">Đơn giá</th>
+                    <th></th>
+                   
+                </tr>
+                <tr class="head">
+                    <td class="stt">1</td>
+                    <td class="mamon">MA1</td>
+                    <td class="tenmon">Gà sốt cay</td>
+                    <td class="gia">40.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">2</td>
+                    <td class="mamon">MA2</td>
+                    <td class="tenmon">Gà sốt phô mai</td>
+                    <td class="gia">45.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">3</td>
+                    <td class="mamon">MA3</td>
+                    <td class="tenmon">Thịt bò Wagyu nướng phô mai</td>
+                    <td class="gia">400.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">4</td>
+                    <td class="mamon">MA4</td>
+                    <td class="tenmon">Thịt lợn Iberia nướng lá lốt</td>
+                    <td class="gia">400.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">5</td>
+                    <td class="mamon">MA5</td>
+                    <td class="tenmon">Gà quay nguyên con rút xương</td>
+                    <td class="gia">140.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">6</td>
+                    <td class="mamon">MA6</td>
+                    <td class="tenmon">Chân gà rút xương nướng mật ong</td>
+                    <td class="gia">240.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">7</td>
+                    <td class="mamon">MA7</td>
+                    <td class="tenmon">Mì tương đen cay</td>
+                    <td class="gia">45.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">8</td>
+                    <td class="mamon">MA8</td>
+                    <td class="tenmon">Mì trộn Hàn Quốc</td>
+                    <td class="gia">40.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">9</td>
+                    <td class="mamon">MA9</td>
+                    <td class="tenmon">Mì tôm trứng</td>
+                    <td class="gia">30.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">10</td>
+                    <td class="mamon">MA10</td>
+                    <td class="tenmon">Kimpap chiên siêu giòn</td>
+                    <td class="gia">50.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">11</td>
+                    <td class="mamon">MA11</td>
+                    <td class="tenmon">Mì trộn Hàn Quốc</td>
+                    <td class="gia">40.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">12</td>
+                    <td class="mamon">MA12</td>
+                    <td class="tenmon">Mì trộn Nhật Bản</td>
+                    <td class="gia">40.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">13</td>
+                    <td class="mamon">MA13</td>
+                    <td class="tenmon">Mì trộn Việt Nam</td>
+                    <td class="gia">40.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                <tr class="head">
+                    <td class="stt">14</td>
+                    <td class="mamon">MA14</td>
+                    <td class="tenmon">Mì trộn Thái Lan</td>
+                    <td class="gia">40.000đ</td>
+                    <td class="them">Thêm <i class="fa-solid fa-forward"></i></td>
+                </tr>
+                
+            </table>
+        </div>
+
+        <div class="tonghop">
+            
+            <table>
+                <tr class="dau">
+                    <th>Món</th>
+                    <th>Số lượng</th>
+                </tr>
+                <tr class="mondachon">
+                    <td>Gà sốt cay</td>
+                    <td>02</td>
+                </tr>
+                <tr class="mondachon">
+                    <td>Gà sốt phô mai</td>
+                    <td>02</td>
+                </tr>
+            </table>
+            
+        </div>
+        <div class="tao">
+            <a href="banhangtructiepmoi.html" class="taohoadon">
+                <i class="fa-solid fa-forward"></i> Tạo
+            </a>
+        </div>
+
+
+
+
+
+    </section>
+
+
+</body>
+</html>
